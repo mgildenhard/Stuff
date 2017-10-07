@@ -9,5 +9,5 @@ __license__ = ("MIT License as detailed in License File"
 __maintainer__ = "Markus Gildenhard"
 __email__ = "mgdatascience@posteo.de"
 __status__ = "Development"
-
+from sklearn.datasets import fetch_mldata
 mnist = fetch_mldata('MNIST original')
